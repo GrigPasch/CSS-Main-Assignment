@@ -107,6 +107,7 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .grid > div{
@@ -114,10 +115,12 @@ li{
     flex-basis: calc(12% - 40px);  
     justify-content: center;
     flex-direction: row;
-    height: 150px;
+    height: 200px;
     width: 100px;
     border: 3px solid  #3882f6;
-    border-radius: 25% 25% 25% 25%;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .grid > div > div{
@@ -131,7 +134,7 @@ li{
 }
   
 .grid div > div > p{
-    margin-top: 175px;
+    margin-top: 215px;
 }
 
 .grid > h1{
