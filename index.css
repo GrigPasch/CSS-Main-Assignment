@@ -65,6 +65,7 @@ li{
 .titel{
     color: var(--hero-main-text-color);
     font-size: 48px;
+    font-weight: 800;
     margin-left: 10vw;
     margin-top: 0;
     padding: 0;
@@ -119,7 +120,7 @@ li{
     border-radius: 25% 25% 25% 25%;
 }
 
-.grid2 > div > div{
+.grid > div > div{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -149,6 +150,8 @@ div.quoteBlock{
 
 .quoteBlock > p{
     font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
     color: var(--quote-text-color);
     justify-self: center;
 }
