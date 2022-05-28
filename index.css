@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+    --background-hero-footer: #1f2937;
+    --hero-main-text-color: #f9faf8;
+    --hero-secondary-text-color: #e5e7eb;
+    --header-link-text-color: #e5e7eb;
+    --header-logo-text-color: #f9faf8;
+    --btn-color: #3882f6;
+    --background-color-action: #3882f6;
+    --information-header-text-color: #1f2937;
+    --quote-section-background-color: #e5e7eb;
+    --quote-text-color: #1f2937;
+}
+ *{
+     font-family: 'Poppins', sans-serif;
+ }
+html, body{
+    height: 600px;
+    margin: 0;
+}
+
+.hero{
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: var(--background-hero-footer);
+    padding-top: 15px;
+}
+
+.hero > div{
+    display: flex; 
+    flex-basis: calc(50% - 40px); 
+    flex-direction: column;
+}
+
+.hero > .logo, .hero > .links{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    float: right;
+    padding: 5px;
+}
+
+.logo{
+    color: var(--header-logo-text-color);
+    font-size: 24px;
+}
+
+.links, a{
+    color: var(--header-link-text-color);
+    font-size: 18px;
+}
+ 
+.titel{
+    color: var(--hero-main-text-color);
+    font-size: 48px;
+    margin-left: 10vw;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+.hero > section{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.underTitle{
+    margin-left: 10vw;
+    margin-top: 0;
+    color: var(--hero-secondary-text-color);
+    font-size: 18px;
+}
+
+.button{
+    background-color: var(--btn-color);
+    border-radius: 15% 15% 15% 15%;
+    width: 75px;
+    height: 40px;
+    color: var(--hero-main-text-color);
+    margin-left: 10vw;
+}
+
+.hero > .image{
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(202, 202, 202, 0.678);
+    height: 300px;
+    font-size: 18px;
+    color: var(--hero-secondary-text-color);
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid > div{
+    display: flex; 
+    flex-basis: calc(12% - 40px);  
+    justify-content: center;
+    flex-direction: row;
+    height: 150px;
+    width: 100px;
+    border: 3px solid  #3882f6;
+    border-radius: 25% 25% 25% 25%;
+}
+
+.grid2 > div > div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+  
+.box{
+      margin: 10vh
+}
+  
+.grid div > div > p{
+    margin-top: 175px;
+}
+
+.grid > h1{
+    position: absolute;
+}
+
+div.quoteBlock{
+    margin-top: 10vh;
+    width: calc(100%);
+    background-color: var(--quote-section-background-color);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+}
+
+.quoteBlock > p{
+    font-size: 36px;
+    color: var(--quote-text-color);
+    justify-self: center;
+}
+
+p.cheat{
+    margin-left: 40vw;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.actionCall{
+    position: absolute;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    height: 125px;
+    background-color: var(--background-color-action);
+    margin-top: 50vh;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p.action{
+    color: var(--hero-main-text-color);
+    font-size: 18px;
+}
+
+p.sign{
+    color: var(--hero-secondary-text-color);
+}
+
+.button1{
+    border: 1.5px solid white;
+    color: var(--hero-main-text-color);
+    border-radius: 5% 5% 5% 5%;
+    margin-left: 10%;
+    background-color: var(--btn-color);
+    height: 30px;
+    margin-top: 7%;
+}
+
+div.footer{
+    background-color: var(--background-hero-footer);
+    display: inline-flex;
+    width: 100%;
+    height: 45px;
+    margin-top: 70vh;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.footer p{
+    color: var(--hero-secondary-text-color);
+    margin-left: 50%;
+}
