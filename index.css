@@ -14,9 +14,9 @@
 }
  
 *{
-     font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
  }
- 
+
 html, body{
     height: 600px;
     margin: 0;
@@ -47,6 +47,7 @@ html, body{
 ul{
     list-style-type: none;
     overflow: hidden;
+    margin-right: -34vw;
 }
 
 li{
@@ -57,6 +58,7 @@ li{
 .logo{
     color: var(--header-logo-text-color);
     font-size: 24px;
+    margin-left: -10vw;
 }
 
 .links, a{
