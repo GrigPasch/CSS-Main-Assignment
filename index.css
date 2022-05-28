@@ -197,10 +197,10 @@ p.sign{
     border: 1.5px solid white;
     color: var(--hero-main-text-color);
     border-radius: 5% 5% 5% 5%;
-    margin-left: 10%;
+    margin-left: 15%;
     background-color: var(--btn-color);
     height: 30px;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 div.footer{
