@@ -12,9 +12,11 @@
     --quote-section-background-color: #e5e7eb;
     --quote-text-color: #1f2937;
 }
- *{
+ 
+*{
      font-family: 'Poppins', sans-serif;
  }
+ 
 html, body{
     height: 600px;
     margin: 0;
